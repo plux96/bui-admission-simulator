@@ -8,19 +8,96 @@ Brauzerda: http://localhost:8501
 import streamlit as st
 import json
 import os
+import base64
+import requests
+from datetime import datetime
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "bui_data.json")
 
+# GitHub config — Secrets orqali yoki to'g'ridan-to'g'ri
+GITHUB_REPO = "plux96/bui-admission-simulator"
+GITHUB_FILE = "bui_data.json"
+
+def get_github_token():
+    """GitHub token olish (Streamlit secrets yoki env)."""
+    try:
+        return st.secrets["GITHUB_TOKEN"]
+    except Exception:
+        return os.environ.get("GITHUB_TOKEN", "")
+
 # ─── Yordamchi funksiyalar ───
+def load_from_github():
+    """GitHub repo'dan bui_data.json ni o'qish."""
+    try:
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+        token = get_github_token()
+        headers = {"Accept": "application/vnd.github.v3+json"}
+        if token:
+            headers["Authorization"] = f"token {token}"
+        resp = requests.get(url, headers=headers, timeout=10)
+        if resp.status_code == 200:
+            content = base64.b64decode(resp.json()["content"]).decode("utf-8")
+            return json.loads(content), resp.json().get("sha", "")
+        return {}, ""
+    except Exception:
+        return {}, ""
+
+def save_to_github(data):
+    """GitHub repo'ga bui_data.json ni saqlash."""
+    token = get_github_token()
+    if not token:
+        return False, "GitHub token topilmadi. Secrets'ga GITHUB_TOKEN qo'shing."
+    try:
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+        headers = {
+            "Authorization": f"token {token}",
+            "Accept": "application/vnd.github.v3+json"
+        }
+        # Avval SHA olish
+        resp = requests.get(url, headers=headers, timeout=10)
+        sha = resp.json().get("sha", "") if resp.status_code == 200 else ""
+
+        content = base64.b64encode(
+            json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8")
+        ).decode("utf-8")
+
+        payload = {
+            "message": f"Data updated: {datetime.now().strftime('%Y-%m-%d %H:%M')}",
+            "content": content,
+        }
+        if sha:
+            payload["sha"] = sha
+
+        resp = requests.put(url, headers=headers, json=payload, timeout=15)
+        if resp.status_code in (200, 201):
+            return True, "GitHub'ga saqlandi!"
+        return False, f"Xatolik: {resp.status_code}"
+    except Exception as e:
+        return False, str(e)
+
 def load_data():
+    """Avval lokal, keyin GitHub'dan yuklash."""
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+            local_data = json.load(f)
+            if local_data:
+                return local_data
+    # Lokal bo'sh — GitHub'dan olish
+    gh_data, _ = load_from_github()
+    if gh_data:
+        # Lokal cache'ga ham yozib qo'y
+        save_data_local(gh_data)
+        return gh_data
     return {}
 
-def save_data(data):
+def save_data_local(data):
+    """Lokal faylga saqlash."""
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def save_data(data):
+    """Lokal + GitHub'ga saqlash."""
+    save_data_local(data)
 
 def get_val(key, default=None):
     keys = key.split(".")
@@ -156,17 +233,47 @@ with st.sidebar:
     st.caption(f"{pct_done:.0f}% tayyor")
 
     st.markdown("---")
-    if st.button("💾 SAQLASH", type="primary", use_container_width=True):
-        save_data(st.session_state["data"])
-        st.success("Saqlandi!")
 
-    if st.button("📥 JSON yuklab olish", use_container_width=True):
-        st.download_button(
-            "Yuklab olish",
-            data=json.dumps(st.session_state["data"], ensure_ascii=False, indent=2),
-            file_name="bui_data.json",
-            mime="application/json"
-        )
+    # SAQLASH — lokal + GitHub
+    if st.button("SAQLASH", type="primary", use_container_width=True):
+        save_data(st.session_state["data"])
+        ok, msg = save_to_github(st.session_state["data"])
+        if ok:
+            st.success("Saqlandi! (lokal + GitHub)")
+        else:
+            st.warning(f"Lokal saqlandi. GitHub: {msg}")
+
+    # JSON YUKLAB OLISH
+    st.download_button(
+        "JSON yuklab olish",
+        data=json.dumps(st.session_state["data"], ensure_ascii=False, indent=2),
+        file_name="bui_data.json",
+        mime="application/json",
+        use_container_width=True,
+    )
+
+    # JSON YUKLASH (import)
+    uploaded = st.file_uploader("JSON yuklash (import)", type=["json"], key="json_upload")
+    if uploaded is not None:
+        try:
+            imported = json.load(uploaded)
+            st.session_state["data"] = imported
+            save_data(imported)
+            st.success(f"Yuklandi! {len(str(imported))} bayt")
+            st.rerun()
+        except Exception as e:
+            st.error(f"Xato: {e}")
+
+    # GitHub'dan yangilash
+    if st.button("GitHub'dan yuklash", use_container_width=True):
+        gh_data, _ = load_from_github()
+        if gh_data:
+            st.session_state["data"] = gh_data
+            save_data_local(gh_data)
+            st.success("GitHub'dan yuklandi!")
+            st.rerun()
+        else:
+            st.warning("GitHub'da ma'lumot topilmadi.")
 
     st.markdown("---")
     section = st.radio("Bo'limni tanlang:", [
