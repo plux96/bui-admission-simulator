@@ -1409,14 +1409,14 @@
     "tibbiy": false
   },
   "xalq": {
-    "hamkor_soni": 0,
+    "hamkor_soni": 10,
     "ikki_diplom": 0,
     "almashinuv": false,
     "ketgan": 0,
     "kelgan": 0,
     "xorijiy_prof": 0,
     "ingliz_dastur": 0,
-    "til_kurs": false,
+    "til_kurs": true,
     "xorijiy_amaliyot": false,
     "brend_tasiri": 0,
     "grantlar": [],
@@ -1633,7 +1633,7 @@
     "sertifikat": []
   },
   "qonun": {
-    "litsenziya": false,
+    "litsenziya": true,
     "litsenziya_tugash": "",
     "akkred_tugash": "",
     "soliq_imtiyoz": false,
