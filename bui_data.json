@@ -1595,13 +1595,13 @@
   },
   "hayot": {
     "qoniqish": {
-      "umumiy": 0,
-      "talim": 0,
-      "infra": 0,
-      "ovqat": 0,
-      "transport": 0,
-      "internet": 0,
-      "oqituvchi": 0,
+      "umumiy": 5,
+      "talim": 7,
+      "infra": 4,
+      "ovqat": 5,
+      "transport": 4,
+      "internet": 8,
+      "oqituvchi": 5,
       "admin": 0
     },
     "shikoyat": [],
