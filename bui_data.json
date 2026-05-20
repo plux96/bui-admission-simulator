@@ -1595,13 +1595,13 @@
   },
   "hayot": {
     "qoniqish": {
-      "umumiy": 5,
-      "talim": 7,
-      "infra": 4,
-      "ovqat": 5,
-      "transport": 4,
-      "internet": 8,
-      "oqituvchi": 5,
+      "umumiy": 0,
+      "talim": 0,
+      "infra": 0,
+      "ovqat": 0,
+      "transport": 0,
+      "internet": 0,
+      "oqituvchi": 0,
       "admin": 0
     },
     "shikoyat": [],
@@ -1611,15 +1611,32 @@
     "hackathon": 0
   },
   "brend": {
-    "tanilgan_bux": 0,
-    "tanilgan_uzb": 0,
-    "tanilgan_maqsad": 0,
+    "tanilgan_bux": 15,
+    "tanilgan_uzb": 5,
+    "tanilgan_maqsad": 45,
     "google_reyting": 0.0,
     "google_sharh": 0,
-    "slogan": "",
-    "assosiatsiya": [],
-    "qadriyat": [],
-    "mukofot": [],
+    "slogan": "Sifatli ta'lim — yorqin kelajak poydevori!",
+    "assosiatsiya": [
+      "Zamonaviy ta'lim",
+      "innovatsiyalar",
+      "yosh va dinamik universitet",
+      "xalqaro hamkorlik",
+      "IT va zamonaviy kasblar",
+      "sifatli infratuzilma."
+    ],
+    "qadriyat": [
+      "Talaba-markazlashgan yondashuv",
+      "akademik halollik",
+      "shaffoflik",
+      "doimiy rivojlanish",
+      "professionallik va ijtimoiy mas'uliyat."
+    ],
+    "mukofot": [
+      "VI Xalqaro matematika olimpiadasi (OMOUS-2026) sovrindorlari",
+      "sport bo'yicha \"Rektor kubogi\" g'oliblari",
+      "xalqaro hamkorlik aloqalari (Chungnam Milliy Universiteti bilan memorandumlar)."
+    ],
     "brandbook": false
   },
   "hamkor": {
