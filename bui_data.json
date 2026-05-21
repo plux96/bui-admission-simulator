@@ -742,7 +742,7 @@
     },
     "19": {
       "nomi": "Qurilish muhandisligi",
-      "nomi_en": "",
+      "nomi_en": "Civil Engineering",
       "fakultet": "",
       "kafedra": "",
       "talim_turi": "Bakalavr",
@@ -761,7 +761,7 @@
       "kelgan_2025": 0,
       "tolov_2025": 4000000,
       "ketgan_2025": 0,
-      "ortacha_ball": 0,
+      "ortacha_ball": 57,
       "narx": 16000000,
       "narx_2025": 16000000,
       "sirtqi_narx": 10000000,
