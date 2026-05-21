@@ -1647,13 +1647,13 @@
   },
   "qonun": {
     "litsenziya": true,
-    "litsenziya_tugash": "",
+    "litsenziya_tugash": "cheksin",
     "akkred_tugash": "",
-    "soliq_imtiyoz": false,
+    "soliq_imtiyoz": true,
     "halollik": false,
-    "anti_korr": false,
+    "anti_korr": true,
     "gender": false,
-    "iso": ""
+    "iso": "Ta'lim sifatini nazorat qilish ichki tizimi"
   },
   "funnel": {
     "xabardor": 0,
