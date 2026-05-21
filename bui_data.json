@@ -1650,7 +1650,7 @@
     "litsenziya_tugash": "cheksin",
     "akkred_tugash": "",
     "soliq_imtiyoz": true,
-    "halollik": false,
+    "halollik": true,
     "anti_korr": true,
     "gender": false,
     "iso": "Ta'lim sifatini nazorat qilish ichki tizimi"
