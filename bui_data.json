@@ -1684,8 +1684,8 @@
   },
   "ijtimoiy": {
     "loyiha_soni": 0,
-    "bepul_kurs": 0,
-    "bepul_ishtirok": 0,
+    "bepul_kurs": 1,
+    "bepul_ishtirok": 25,
     "maktab": false,
     "maktab_soni": 0,
     "reputatsiya": 0
