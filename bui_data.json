@@ -1611,15 +1611,28 @@
     "hackathon": 0
   },
   "brend": {
-    "tanilgan_bux": 0,
-    "tanilgan_uzb": 0,
-    "tanilgan_maqsad": 0,
-    "google_reyting": 0.0,
-    "google_sharh": 0,
-    "slogan": "",
-    "assosiatsiya": [],
-    "qadriyat": [],
-    "mukofot": [],
+    "tanilgan_bux": 15,
+    "tanilgan_uzb": 5,
+    "tanilgan_maqsad": 45,
+    "google_reyting": 4.5,
+    "google_sharh": 100,
+    "slogan": "Innovatsion ta'lim — yorqin kelajak poydevori!",
+    "assosiatsiya": [
+      "Zamonaviy oliygoh",
+      "sifatli ta'lim",
+      "innovatsion texnologiyalar",
+      "yoshlar intellektual muhiti va xalqaro hamkorlik"
+    ],
+    "qadriyat": [
+      "Akademik halollik",
+      "professionallik",
+      "talabalarga yo'naltirilganlik",
+      "doimiy rivojlanish va ochiqlik"
+    ],
+    "mukofot": [
+      "Xalqaro olimpiadalardagi sovrinli o'rinlar (jumladan OMOUS)",
+      "intellektual va sport musobaqalari g'olibligi hamda hududiy ta'lim loyihalari yetakchisi"
+    ],
     "brandbook": false
   },
   "hamkor": {
