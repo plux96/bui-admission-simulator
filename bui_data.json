@@ -994,8 +994,8 @@
     }
   },
   "narx": {
-    "eng_arzon": 0,
-    "eng_qimmat": 0,
+    "eng_arzon": 10000000,
+    "eng_qimmat": 19000000,
     "ortacha": 0,
     "narx_2023": 0,
     "narx_2024": 0,
