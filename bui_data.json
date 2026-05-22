@@ -1607,18 +1607,18 @@
     "min_margin": 0
   },
   "hudud": {
-    "buxoro_aholi": 0,
-    "buxoro_17_18": 0,
-    "buxoro_bitir": 0,
-    "buxoro_uni": 0,
+    "buxoro_aholi": 1900000,
+    "buxoro_17_18": 72000,
+    "buxoro_bitir": 38000,
+    "buxoro_uni": 9,
     "buxoro_daromad": 0,
     "buxoro_ishsizlik": 0,
-    "uzb_aholi": 0,
-    "uzb_17_18": 0,
-    "uzb_uni": 0,
-    "uzb_kontrakt": 0,
-    "uzb_maosh": 0,
-    "uzb_inflyatsiya": 0,
+    "uzb_aholi": 37000000,
+    "uzb_17_18": 1450000,
+    "uzb_uni": 210,
+    "uzb_kontrakt": 18000000,
+    "uzb_maosh": 4800000,
+    "uzb_inflyatsiya": 18,
     "vil": {
       "samarqand": {
         "yosh": 0,
