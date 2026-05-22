@@ -1645,14 +1645,14 @@
         "tanilganlik": 3
       },
       "xorazm": {
-        "yosh": 0,
-        "uni": 0,
+        "yosh": 48000,
+        "uni": 6,
         "raqobat": 5,
         "tanilganlik": 3
       },
       "fargona": {
-        "yosh": 0,
-        "uni": 0,
+        "yosh": 120000,
+        "uni": 120000,
         "raqobat": 5,
         "tanilganlik": 3
       }
