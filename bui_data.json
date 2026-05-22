@@ -1652,7 +1652,7 @@
       },
       "fargona": {
         "yosh": 120000,
-        "uni": 120000,
+        "uni": 11,
         "raqobat": 5,
         "tanilganlik": 3
       }
@@ -1687,7 +1687,7 @@
     "noyabr": 0,
     "dekabr": 0,
     "dtm": "",
-    "maktab_bitir": "",
+    "maktab_bitir": "25 may",
     "ramadan_bosh": "",
     "armiya": ""
   },
