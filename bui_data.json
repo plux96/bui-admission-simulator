@@ -1621,28 +1621,28 @@
     "uzb_inflyatsiya": 18,
     "vil": {
       "samarqand": {
-        "yosh": 0,
-        "uni": 0,
-        "raqobat": 0,
-        "tanilganlik": 0
+        "yosh": 95000,
+        "uni": 13,
+        "raqobat": 6,
+        "tanilganlik": 3
       },
       "navoiy": {
-        "yosh": 0,
-        "uni": 0,
-        "raqobat": 0,
-        "tanilganlik": 0
+        "yosh": 22000,
+        "uni": 4,
+        "raqobat": 4,
+        "tanilganlik": 4
       },
       "qashqadaryo": {
-        "yosh": 0,
-        "uni": 0,
-        "raqobat": 0,
-        "tanilganlik": 0
+        "yosh": 105000,
+        "uni": 8,
+        "raqobat": 7,
+        "tanilganlik": 4
       },
       "toshkent": {
-        "yosh": 0,
-        "uni": 0,
-        "raqobat": 0,
-        "tanilganlik": 0
+        "yosh": 68000,
+        "uni": 62,
+        "raqobat": 8,
+        "tanilganlik": 3
       },
       "xorazm": {
         "yosh": 0,
