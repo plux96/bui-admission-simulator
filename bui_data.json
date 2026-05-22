@@ -1666,7 +1666,7 @@
     "ab_test": false,
     "chatbot": false,
     "ai_chatbot": false,
-    "lms": false,
+    "lms": true,
     "lms_nomi": "",
     "mobil": false,
     "automation": false,
