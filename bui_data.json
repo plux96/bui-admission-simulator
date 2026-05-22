@@ -1543,7 +1543,7 @@
     "suzish": false,
     "futbol": false,
     "madaniyat": false,
-    "konferens": 0,
+    "konferens": 120,
     "klublar": 0,
     "klub_nomlari": [],
     "kamera": true,
@@ -1659,19 +1659,19 @@
     }
   },
   "texno": {
-    "crm": false,
-    "crm_nomi": "",
-    "ga": false,
+    "crm": true,
+    "crm_nomi": "eotm",
+    "ga": true,
     "utm": false,
     "ab_test": false,
-    "chatbot": false,
+    "chatbot": true,
     "ai_chatbot": false,
     "lms": true,
-    "lms_nomi": "",
+    "lms_nomi": "hemis",
     "mobil": false,
     "automation": false,
     "retargeting": false,
-    "data_driven": 4
+    "data_driven": 5
   },
   "mavsum": {
     "yanvar": 0,
