@@ -1418,8 +1418,8 @@
       "mkt_faollik": 9,
       "kampus": 9,
       "xavf": 9,
-      "telegram": 0,
-      "instagram": 0,
+      "telegram": 4582,
+      "instagram": 139,
       "tv_bor": true,
       "agent_bor": true,
       "online_bor": true,
@@ -1491,7 +1491,10 @@
       "yotoq_bor": true,
       "ikki_diplom": false,
       "chegirma_bor": true,
-      "kuchli": [],
+      "kuchli": [
+        "Tibbiyot ixtisosliklari",
+        "zamonaviy kampus"
+      ],
       "zaif": [],
       "umumiy_yon": [],
       "narx_strat": ""
