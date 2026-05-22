@@ -1647,14 +1647,14 @@
       "xorazm": {
         "yosh": 0,
         "uni": 0,
-        "raqobat": 0,
-        "tanilganlik": 0
+        "raqobat": 5,
+        "tanilganlik": 3
       },
       "fargona": {
         "yosh": 0,
         "uni": 0,
-        "raqobat": 0,
-        "tanilganlik": 0
+        "raqobat": 5,
+        "tanilganlik": 3
       }
     }
   },
