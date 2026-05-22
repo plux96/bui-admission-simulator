@@ -1393,7 +1393,11 @@
       "yotoq_bor": true,
       "ikki_diplom": false,
       "chegirma_bor": true,
-      "kuchli": [],
+      "kuchli": [
+        "Texnika yo'nalishlari",
+        "davlat",
+        "yangi"
+      ],
       "zaif": [],
       "umumiy_yon": [],
       "narx_strat": ""
