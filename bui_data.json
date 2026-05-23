@@ -1777,12 +1777,12 @@
     "yoshlar_ishsiz": 15,
     "maosh": 4500000,
     "gdp": 5,
-    "ai_tasiri": 0,
-    "online": 0,
-    "diploma_qadrsiz": 0,
-    "emigratsiya": 0,
-    "startup": 0,
-    "barqarorlik": 0
+    "ai_tasiri": 6,
+    "online": 8,
+    "diploma_qadrsiz": 9,
+    "emigratsiya": 7,
+    "startup": 6,
+    "barqarorlik": 7
   },
   "kadr": {
     "jami": 0,
