@@ -1829,7 +1829,9 @@
       "admin": 0
     },
     "shikoyat": [],
-    "ketish_sabab": [],
+    "ketish_sabab": [
+      "Davlat universitetiga perevod"
+    ],
     "ketish_1sem": 0,
     "startap": false,
     "hackathon": 0
