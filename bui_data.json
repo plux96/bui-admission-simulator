@@ -1899,14 +1899,14 @@
     }
   },
   "digital": {
-    "sayt_tezlik": 0.0,
-    "sayt_tashrif": 0,
-    "bounce": 0,
-    "mobil": false,
-    "virtual_tur": false,
-    "blog": false,
-    "landing": 0,
-    "landing_konv": 0
+    "sayt_tezlik": 2.0,
+    "sayt_tashrif": 30000,
+    "bounce": 40,
+    "mobil": true,
+    "virtual_tur": true,
+    "blog": true,
+    "landing": 15,
+    "landing_konv": 5
   },
   "ijtimoiy": {
     "loyiha_soni": 0,
