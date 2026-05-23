@@ -1771,12 +1771,12 @@
     "armiya": ""
   },
   "tashqi": {
-    "inflyatsiya": 0,
-    "dollar": 0,
-    "ishsizlik": 0,
-    "yoshlar_ishsiz": 0,
-    "maosh": 0,
-    "gdp": 0,
+    "inflyatsiya": 11,
+    "dollar": 12700,
+    "ishsizlik": 8,
+    "yoshlar_ishsiz": 15,
+    "maosh": 4500000,
+    "gdp": 5,
     "ai_tasiri": 0,
     "online": 0,
     "diploma_qadrsiz": 0,
