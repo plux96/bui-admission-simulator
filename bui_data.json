@@ -1627,7 +1627,7 @@
     "klub_nomlari": [],
     "kamera": true,
     "kamera_soni": 59,
-    "qorovul": true,
+    "qorovul": false,
     "kirish_karta": false,
     "yongin": true,
     "tibbiy": false
@@ -1797,7 +1797,7 @@
     "qabul_soni": 0,
     "qabul_tajriba": 0,
     "kpi": false,
-    "bonus": false,
+    "bonus": true,
     "mkt_soni": 0,
     "smm": false,
     "dizayner": false,
