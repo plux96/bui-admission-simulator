@@ -1873,7 +1873,7 @@
   },
   "qonun": {
     "litsenziya": true,
-    "litsenziya_tugash": "cheksin",
+    "litsenziya_tugash": "cheksiz",
     "akkred_tugash": "",
     "soliq_imtiyoz": true,
     "halollik": false,
@@ -1899,7 +1899,7 @@
     }
   },
   "digital": {
-    "sayt_tezlik": 0.0,
+    "sayt_tezlik": 1.18,
     "sayt_tashrif": 0,
     "bounce": 0,
     "mobil": false,
