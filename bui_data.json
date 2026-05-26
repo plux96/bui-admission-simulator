@@ -1098,12 +1098,12 @@
       "cpa": 0
     },
     "sms": {
-      "byudjet": 50000000,
-      "nomi": "BUI.UZ",
-      "followers": 50000,
-      "reach": 500000,
-      "konversiya": 30,
-      "cpa": 500000
+      "byudjet": 0,
+      "nomi": "",
+      "followers": 0,
+      "reach": 0,
+      "konversiya": 0,
+      "cpa": 0
     },
     "email": {
       "byudjet": 0,
@@ -1132,12 +1132,10 @@
       "konversiya": 0
     },
     "billboard": {
-      "byudjet": 50000000,
-      "kanallar": [
-        "BUXORO SHAHAR  VA TUMANLAR"
-      ],
-      "oyiga": 5,
-      "konversiya": 5
+      "byudjet": 0,
+      "kanallar": [],
+      "oyiga": 0,
+      "konversiya": 0
     },
     "transport_reklama": {
       "byudjet": 0,
@@ -1146,12 +1144,10 @@
       "konversiya": 0
     },
     "poligrafiya": {
-      "byudjet": 30000000,
-      "kanallar": [
-        "TASHQI KEKLAMALAR UCHUN BANNERLAR TAYYORLASH YILIGA VA OYIGA BIR MARTA"
-      ],
-      "oyiga": 1,
-      "konversiya": 5
+      "byudjet": 0,
+      "kanallar": [],
+      "oyiga": 0,
+      "konversiya": 0
     },
     "ochiq_eshiklar_kuni": {
       "yilda": 0,
@@ -1257,9 +1253,9 @@
       "past": 0,
       "ortacha_past": 0,
       "ortacha": 0,
-      "yuqori_ortacha": 0,
-      "yuqori": 0,
-      "boylar": 0
+      "yuqori_ortacha": 45,
+      "yuqori": 33,
+      "boylar": 10
     },
     "ota_talim": {
       "ikkalasi_oliy": 42,
