@@ -1035,7 +1035,7 @@
     "qaytarish": ""
   },
   "mkt": {
-    "jami_byudjet": 4000000000,
+    "jami_byudjet": 3500000000,
     "otgan_byudjet": 3500000000,
     "jamoa_soni": 10,
     "rahbar": "REKTOR",
@@ -1067,11 +1067,11 @@
     },
     "youtube": {
       "byudjet": 15000000,
-      "nomi": "BUI.UZ",
+      "nomi": "",
       "followers": 1000,
-      "reach": 500000,
+      "reach": 0,
       "konversiya": 1,
-      "cpa": 500000
+      "cpa": 0
     },
     "tiktok": {
       "byudjet": 0,
@@ -1106,12 +1106,12 @@
       "cpa": 500000
     },
     "email": {
-      "byudjet": 10000000,
-      "nomi": "BUI.UZ",
-      "followers": 500,
-      "reach": 500000,
-      "konversiya": 2,
-      "cpa": 500000
+      "byudjet": 0,
+      "nomi": "",
+      "followers": 0,
+      "reach": 0,
+      "konversiya": 0,
+      "cpa": 0
     },
     "tv_reklama": {
       "byudjet": 0,
@@ -1258,10 +1258,10 @@
       "boylar": 0
     },
     "ota_talim": {
-      "ikkalasi_oliy": 0,
-      "bittasi_oliy": 0,
-      "orta_maxsus": 0,
-      "maktab": 0
+      "ikkalasi_oliy": 42,
+      "bittasi_oliy": 55,
+      "orta_maxsus": 77,
+      "maktab": 5
     },
     "ota_kasb": {
       "davlat_xizmatchisi": 0,
