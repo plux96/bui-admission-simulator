@@ -1920,16 +1920,21 @@
     "reputatsiya": 0
   },
   "kelajak": {
-    "yangi_yon": [],
-    "bino": "",
-    "hamkor": [],
-    "maqsad_3yil": 0,
-    "kampus_keng": false,
-    "filial": false,
-    "filial_shahar": "",
+    "yangi_yon": [
+      "Tibbiyot",
+      "yuridik"
+    ],
+    "bino": "Buxoro va sirdaryo kampuslarida universitet balansida yangi bino barpo qilish",
+    "hamkor": [
+      "Yevropa va Amerika Davlatlari OTMlari bilan hamkorlik"
+    ],
+    "maqsad_3yil": 25000,
+    "kampus_keng": true,
+    "filial": true,
+    "filial_shahar": "Toshkent va Namangan shaharlarida",
     "vizyon": "",
-    "missiya": "",
-    "maqsad_5yil": 0
+    "missiya": "Yevropa va Amerika Davlatlari OTMlari bilan hamkorlik",
+    "maqsad_5yil": 30000
   },
   "maqsad": {
     "son": {
