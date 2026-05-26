@@ -1299,22 +1299,22 @@
       "sport": 6
     },
     "manba": {
-      "telegram": 0,
-      "instagram": 0,
-      "youtube": 0,
+      "telegram": 6,
+      "instagram": 7,
+      "youtube": 6,
       "tiktok": 0,
       "tv": 0,
       "radio": 0,
-      "dostlar": 0,
-      "ota-ona": 0,
-      "maktab_oqituvchisi": 0,
-      "agent": 0,
-      "google": 0,
+      "dostlar": 1,
+      "ota-ona": 2,
+      "maktab_oqituvchisi": 1,
+      "agent": 1,
+      "google": 8,
       "billboard": 0,
-      "ochiq_eshiklar_kuni": 0,
+      "ochiq_eshiklar_kuni": 6,
       "whatsapp_guruh": 0,
       "sms": 0,
-      "talim_portallari": 0
+      "talim_portallari": 1
     },
     "2025": {
       "ariza": 0,
