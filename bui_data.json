@@ -1098,12 +1098,12 @@
       "cpa": 0
     },
     "sms": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 50000000,
+      "nomi": "BUI.UZ",
+      "followers": 50000,
+      "reach": 500000,
+      "konversiya": 30,
+      "cpa": 500000
     },
     "email": {
       "byudjet": 0,
@@ -1132,10 +1132,12 @@
       "konversiya": 0
     },
     "billboard": {
-      "byudjet": 0,
-      "kanallar": [],
-      "oyiga": 0,
-      "konversiya": 0
+      "byudjet": 50000000,
+      "kanallar": [
+        "BUXORO SHAHAR  VA TUMANLAR"
+      ],
+      "oyiga": 5,
+      "konversiya": 5
     },
     "transport_reklama": {
       "byudjet": 0,
@@ -1144,40 +1146,42 @@
       "konversiya": 0
     },
     "poligrafiya": {
-      "byudjet": 0,
-      "kanallar": [],
-      "oyiga": 0,
-      "konversiya": 0
+      "byudjet": 30000000,
+      "kanallar": [
+        "TASHQI KEKLAMALAR UCHUN BANNERLAR TAYYORLASH YILIGA VA OYIGA BIR MARTA"
+      ],
+      "oyiga": 1,
+      "konversiya": 5
     },
     "ochiq_eshiklar_kuni": {
-      "yilda": 0,
-      "ishtirokchi": 0,
-      "xarajat": 0,
-      "konversiya": 0
+      "yilda": 1,
+      "ishtirokchi": 5,
+      "xarajat": 15000000,
+      "konversiya": 1
     },
     "maktablarga_tashrif": {
-      "yilda": 0,
-      "ishtirokchi": 0,
-      "xarajat": 0,
-      "konversiya": 0
+      "yilda": 3,
+      "ishtirokchi": 50,
+      "xarajat": 50000000,
+      "konversiya": 10
     },
     "festival": {
-      "yilda": 0,
-      "ishtirokchi": 0,
-      "xarajat": 0,
-      "konversiya": 0
+      "yilda": 1,
+      "ishtirokchi": 120,
+      "xarajat": 30000000,
+      "konversiya": 10
     },
     "olimpiadalar": {
-      "yilda": 0,
-      "ishtirokchi": 0,
-      "xarajat": 0,
-      "konversiya": 0
+      "yilda": 1,
+      "ishtirokchi": 5,
+      "xarajat": 10000000,
+      "konversiya": 3
     },
     "yarmarkalar": {
-      "yilda": 0,
-      "ishtirokchi": 0,
-      "xarajat": 0,
-      "konversiya": 0
+      "yilda": 1,
+      "ishtirokchi": 30,
+      "xarajat": 20000000,
+      "konversiya": 3
     },
     "agent": {
       "jami": 0,
@@ -1249,13 +1253,13 @@
       "28_plus": 0
     },
     "daromad": {
-      "juda_past": 40,
-      "past": 30,
-      "ortacha_past": 70,
-      "ortacha": 60,
-      "yuqori_ortacha": 45,
-      "yuqori": 33,
-      "boylar": 10
+      "juda_past": 0,
+      "past": 0,
+      "ortacha_past": 0,
+      "ortacha": 0,
+      "yuqori_ortacha": 0,
+      "yuqori": 0,
+      "boylar": 0
     },
     "ota_talim": {
       "ikkalasi_oliy": 42,
