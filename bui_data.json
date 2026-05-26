@@ -1632,12 +1632,12 @@
     "tibbiy": false
   },
   "xalq": {
-    "hamkor_soni": 10,
-    "ikki_diplom": 2,
+    "hamkor_soni": 30,
+    "ikki_diplom": 0,
     "almashinuv": false,
-    "ketgan": 0,
-    "kelgan": 0,
-    "xorijiy_prof": 0,
+    "ketgan": 2,
+    "kelgan": 2,
+    "xorijiy_prof": 2,
     "ingliz_dastur": 0,
     "til_kurs": true,
     "xorijiy_amaliyot": false,
