@@ -1098,12 +1098,12 @@
       "cpa": 0
     },
     "sms": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 50000000,
+      "nomi": "BUI.UZ",
+      "followers": 50000,
+      "reach": 500000,
+      "konversiya": 30,
+      "cpa": 500000
     },
     "email": {
       "byudjet": 0,
@@ -1132,10 +1132,12 @@
       "konversiya": 0
     },
     "billboard": {
-      "byudjet": 0,
-      "kanallar": [],
-      "oyiga": 0,
-      "konversiya": 0
+      "byudjet": 50000000,
+      "kanallar": [
+        "BUXORO SHAHAR  VA TUMANLAR"
+      ],
+      "oyiga": 5,
+      "konversiya": 5
     },
     "transport_reklama": {
       "byudjet": 0,
@@ -1144,10 +1146,12 @@
       "konversiya": 0
     },
     "poligrafiya": {
-      "byudjet": 0,
-      "kanallar": [],
-      "oyiga": 0,
-      "konversiya": 0
+      "byudjet": 30000000,
+      "kanallar": [
+        "TASHQI KEKLAMALAR UCHUN BANNERLAR TAYYORLASH YILIGA VA OYIGA BIR MARTA"
+      ],
+      "oyiga": 1,
+      "konversiya": 5
     },
     "ochiq_eshiklar_kuni": {
       "yilda": 0,
@@ -1273,26 +1277,26 @@
       "xorijda_ishlaydi": 0
     },
     "qaror": {
-      "narx": 9,
-      "stipendiya": 8,
-      "bolib": 9,
-      "sifat": 10,
-      "prof": 10,
-      "kampus": 7,
-      "yotoq": 7,
-      "masofa": 9,
-      "ish": 9,
-      "xalqaro": 10,
-      "brend": 8,
+      "narx": 0,
+      "stipendiya": 0,
+      "bolib": 0,
+      "sifat": 0,
+      "prof": 0,
+      "kampus": 0,
+      "yotoq": 0,
+      "masofa": 0,
+      "ish": 0,
+      "xalqaro": 0,
+      "brend": 0,
       "dostlar": 0,
-      "oila": 1,
-      "social": 8,
-      "chegirma": 9,
-      "agent": 2,
-      "maktab_tavs": 3,
+      "oila": 0,
+      "social": 0,
+      "chegirma": 0,
+      "agent": 0,
+      "maktab_tavs": 0,
       "harbiy": 0,
-      "bino": 8,
-      "sport": 9
+      "bino": 0,
+      "sport": 0
     },
     "manba": {
       "telegram": 0,
