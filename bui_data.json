@@ -1805,16 +1805,16 @@
     "analitik": false
   },
   "alumni": {
-    "jami": 0,
-    "ish_6oy": 0,
-    "mutaxassislik": 0,
-    "maosh_1yil": 0,
-    "maosh_3yil": 0,
+    "jami": 158,
+    "ish_6oy": 98,
+    "mutaxassislik": 98,
+    "maosh_1yil": 5000000,
+    "maosh_3yil": 4000000,
     "assotsiatsiya": false,
     "guruh": 0,
-    "tavsiya": 57,
+    "tavsiya": 98,
     "agent": 0,
-    "ish_beruvchi": 0
+    "ish_beruvchi": 150
   },
   "hayot": {
     "qoniqish": {
