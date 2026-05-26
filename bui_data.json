@@ -1258,19 +1258,19 @@
       "boylar": 0
     },
     "ota_talim": {
-      "ikkalasi_oliy": 0,
-      "bittasi_oliy": 0,
-      "orta_maxsus": 0,
-      "maktab": 0
+      "ikkalasi_oliy": 35,
+      "bittasi_oliy": 70,
+      "orta_maxsus": 80,
+      "maktab": 99
     },
     "ota_kasb": {
-      "davlat_xizmatchisi": 0,
-      "tadbirkor": 0,
-      "ishchi": 0,
-      "dehqon_fermer": 0,
-      "pensioner": 0,
-      "ishsiz": 0,
-      "xorijda_ishlaydi": 0
+      "davlat_xizmatchisi": 34,
+      "tadbirkor": 25,
+      "ishchi": 86,
+      "dehqon_fermer": 24,
+      "pensioner": 21,
+      "ishsiz": 5,
+      "xorijda_ishlaydi": 45
     },
     "qaror": {
       "narx": 0,
