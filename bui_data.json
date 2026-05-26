@@ -1958,11 +1958,11 @@
     },
     "cheklov": {
       "max_talaba": 0,
-      "min_narx": 0,
+      "min_narx": 10000000,
       "max_mkt": 0,
       "max_chegirma": 100,
       "min_foyda": 0,
-      "min_ball": 0
+      "min_ball": 57
     }
   }
 }
