@@ -1793,7 +1793,7 @@
     "prof_max_maosh": 0,
     "qoniqish": 0,
     "turnover": 0,
-    "qabul_soni": 10,
+    "qabul_soni": 1,
     "qabul_tajriba": 0,
     "kpi": false,
     "bonus": true,
@@ -1929,38 +1929,38 @@
   },
   "maqsad": {
     "son": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.3,
+      "qiymat": 5000
     },
     "daromad": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.2,
+      "qiymat": 200000000000
     },
     "roi": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.05,
+      "qiymat": 400
     },
     "sifat": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.2,
+      "qiymat": 75
     },
     "hudud": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.05,
+      "qiymat": 30
     },
     "brend": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.1,
+      "qiymat": 80
     },
     "retention": {
-      "ogirlik": 0.0,
-      "qiymat": 0
+      "ogirlik": 0.1,
+      "qiymat": 85
     },
     "cheklov": {
       "max_talaba": 0,
       "min_narx": 0,
       "max_mkt": 0,
-      "max_chegirma": 0,
+      "max_chegirma": 100,
       "min_foyda": 0,
       "min_ball": 0
     }
