@@ -1025,8 +1025,8 @@
     "bolib_tolash": false,
     "bolib_oy": 12,
     "bolib_ustama": 0,
-    "click": false,
-    "payme": false,
+    "click": true,
+    "payme": true,
     "uzum": false,
     "kredit_bank": "",
     "kredit_foiz": 0,
@@ -1035,10 +1035,10 @@
     "qaytarish": ""
   },
   "mkt": {
-    "jami_byudjet": 117563500,
-    "otgan_byudjet": 942587400,
-    "jamoa_soni": 4,
-    "rahbar": "Rustamov U",
+    "jami_byudjet": 0,
+    "otgan_byudjet": 0,
+    "jamoa_soni": 0,
+    "rahbar": "",
     "agentlik_bor": false,
     "agentlik_byudjet": 0,
     "telegram": {
@@ -1784,7 +1784,7 @@
     "barqarorlik": 7
   },
   "kadr": {
-    "jami": 0,
+    "jami": 185,
     "professor": 200,
     "admin": 0,
     "phd_foiz": 0,
