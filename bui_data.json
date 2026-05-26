@@ -1249,10 +1249,10 @@
       "28_plus": 0
     },
     "daromad": {
-      "juda_past": 0,
-      "past": 0,
-      "ortacha_past": 0,
-      "ortacha": 0,
+      "juda_past": 40,
+      "past": 30,
+      "ortacha_past": 70,
+      "ortacha": 60,
       "yuqori_ortacha": 45,
       "yuqori": 33,
       "boylar": 10
