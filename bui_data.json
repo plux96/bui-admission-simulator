@@ -1035,43 +1035,43 @@
     "qaytarish": ""
   },
   "mkt": {
-    "jami_byudjet": 0,
-    "otgan_byudjet": 0,
-    "jamoa_soni": 0,
-    "rahbar": "",
-    "agentlik_bor": false,
-    "agentlik_byudjet": 0,
+    "jami_byudjet": 3500000000,
+    "otgan_byudjet": 3500000000,
+    "jamoa_soni": 10,
+    "rahbar": "REKTOR",
+    "agentlik_bor": true,
+    "agentlik_byudjet": 2000000000,
     "telegram": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 100000000,
+      "nomi": "BUI.UZ",
+      "followers": 3000,
+      "reach": 500000,
+      "konversiya": 4,
+      "cpa": 500000
     },
     "instagram": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 100000000,
+      "nomi": "BUI.UZ",
+      "followers": 5000,
+      "reach": 500000,
+      "konversiya": 9,
+      "cpa": 500000
     },
     "facebook": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 20000000,
+      "nomi": "BUI.UZ",
+      "followers": 3000,
+      "reach": 500000,
+      "konversiya": 1,
+      "cpa": 500000
     },
     "youtube": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 15000000,
+      "nomi": "BUI.UZ",
+      "followers": 1000,
+      "reach": 500000,
+      "konversiya": 1,
+      "cpa": 500000
     },
     "tiktok": {
       "byudjet": 0,
@@ -1098,20 +1098,20 @@
       "cpa": 0
     },
     "sms": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 50000000,
+      "nomi": "BUI.UZ",
+      "followers": 50000,
+      "reach": 500000,
+      "konversiya": 30,
+      "cpa": 500000
     },
     "email": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
-      "cpa": 0
+      "byudjet": 10000000,
+      "nomi": "BUI.UZ",
+      "followers": 500,
+      "reach": 500000,
+      "konversiya": 2,
+      "cpa": 500000
     },
     "tv_reklama": {
       "byudjet": 0,
@@ -1258,19 +1258,19 @@
       "boylar": 0
     },
     "ota_talim": {
-      "ikkalasi_oliy": 35,
-      "bittasi_oliy": 70,
-      "orta_maxsus": 80,
-      "maktab": 99
+      "ikkalasi_oliy": 0,
+      "bittasi_oliy": 0,
+      "orta_maxsus": 0,
+      "maktab": 0
     },
     "ota_kasb": {
-      "davlat_xizmatchisi": 34,
-      "tadbirkor": 25,
-      "ishchi": 86,
-      "dehqon_fermer": 24,
-      "pensioner": 21,
-      "ishsiz": 5,
-      "xorijda_ishlaydi": 45
+      "davlat_xizmatchisi": 0,
+      "tadbirkor": 0,
+      "ishchi": 0,
+      "dehqon_fermer": 0,
+      "pensioner": 0,
+      "ishsiz": 0,
+      "xorijda_ishlaydi": 0
     },
     "qaror": {
       "narx": 0,
