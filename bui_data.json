@@ -1861,13 +1861,17 @@
     "brandbook": false
   },
   "hamkor": {
-    "sanoat_soni": 0,
-    "staj_joy": 0,
+    "sanoat_soni": 47,
+    "staj_joy": 13,
     "tadqiqot": 0,
-    "patent": 0,
+    "patent": 21,
     "scopus": 0,
     "texnopark": false,
-    "it": [],
+    "it": [
+      "Buxoro shahri mediapark",
+      "IT park",
+      "Monomarkaz"
+    ],
     "sertifikat": []
   },
   "qonun": {
