@@ -1317,26 +1317,26 @@
       "talim_portallari": 1
     },
     "2025": {
-      "ariza": 0,
-      "qabul": 0,
-      "hujjat": 0,
-      "tolov": 0,
-      "kelgan": 0,
-      "ketgan": 0,
-      "konv_ariza": 0,
-      "konv_tolov": 0,
-      "eng_kop_oy": "",
-      "buxorolik": 0
+      "ariza": 35000,
+      "qabul": 3500,
+      "hujjat": 1200,
+      "tolov": 3200,
+      "kelgan": 900,
+      "ketgan": 800,
+      "konv_ariza": 20,
+      "konv_tolov": 27,
+      "eng_kop_oy": "AVGUST",
+      "buxorolik": 54
     },
     "segment": {
-      "narx_sezgir": 0,
-      "sifat_izlovchi": 0,
-      "qulaylik": 0,
-      "status": 0,
-      "pragmatik": 0,
-      "ota_ona": 0,
-      "guruh": 0,
-      "tasodifiy": 0
+      "narx_sezgir": 24,
+      "sifat_izlovchi": 13,
+      "qulaylik": 45,
+      "status": 86,
+      "pragmatik": 5,
+      "ota_ona": 35,
+      "guruh": 25,
+      "tasodifiy": 50
     }
   },
   "raq_count": 5,
