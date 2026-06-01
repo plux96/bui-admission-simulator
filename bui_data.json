@@ -1067,9 +1067,9 @@
     },
     "youtube": {
       "byudjet": 15000000,
-      "nomi": "",
+      "nomi": "BUI.UZ",
       "followers": 1000,
-      "reach": 0,
+      "reach": 25,
       "konversiya": 1,
       "cpa": 0
     },
@@ -1082,11 +1082,11 @@
       "cpa": 0
     },
     "google_ads": {
-      "byudjet": 0,
-      "nomi": "",
-      "followers": 0,
-      "reach": 0,
-      "konversiya": 0,
+      "byudjet": 30000000,
+      "nomi": "BUI.UZ",
+      "followers": 200,
+      "reach": 12,
+      "konversiya": 2,
       "cpa": 0
     },
     "seo": {
